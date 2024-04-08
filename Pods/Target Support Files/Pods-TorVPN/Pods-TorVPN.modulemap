@@ -1,0 +1,6 @@
+framework module Pods_TorVPN {
+  umbrella header "Pods-TorVPN-umbrella.h"
+
+  export *
+  module * { export * }
+}
