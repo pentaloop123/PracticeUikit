@@ -7,22 +7,36 @@ def tor
    '~> 408.10'
 end
 
+def iptproxy
+  pod 'IPtProxyUI/AppEx',
+  '~> 4.2'
+end
 
 target 'PracticeUIkit' do
-  use_frameworks!
-  pod 'NEOnionProxyLibrary'
-#  tor
- 
+  platform :ios, '15.0'
+  
+  tor
+  iptproxy
+  
+   pod 'Eureka', '~> 5.3'
+   pod 'ProgressHUD', '~> 13.6'
+   pod 'lottie-ios', '~> 4.0'
+   pod 'IQKeyboardManagerSwift'
+   pod 'SwiftyStoreKit'
+  
+   
 end
+
 
 target 'TorVPN' do
-  use_frameworks!
   
-#  tor
-
-    
+  platform :ios, '15.0'
+  
+  tor
+  iptproxy
+  pod 'GCDWebServerExtension', :git => 'https://github.com/tladesignz/GCDWebServer.git'
+   
 end
-
 
 post_install do |installer|
   installer.pods_project.targets.each do |target|
@@ -35,3 +49,4 @@ post_install do |installer|
     end
   end
 end
+
