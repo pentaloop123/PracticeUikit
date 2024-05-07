@@ -6,11 +6,30 @@
 //
 
 import XCTest
+@testable import PracticeUIkit
 
 final class SystemScanTest: XCTestCase {
 
+    
+    var systemScanViewController: SystemScanViewController!
+    
+    override func setUp() {
+        super.setUp()
+        
+    }
+    
+    func testAdditionOfNumbers(){
+        let num1 = 5
+        let num2 = 10
+        
+        let result = systemScanViewController.additionOfNumbers(num1: num1, num2: num2)
+        XCTAssertEqual(result, 25, "Addition result should be 15")
+    }
+    
     override func setUpWithError() throws {
-        // Put setup code here. This method is called before the invocation of each test method in the class.
+        let storyboard = UIStoryboard(name: "SystemScan", bundle: nil)
+        systemScanViewController = storyboard.instantiateViewController(withIdentifier: "SystemScanViewController") as? SystemScanViewController
+        _ = systemScanViewController.view
     }
 
     override func tearDownWithError() throws {
@@ -18,11 +37,7 @@ final class SystemScanTest: XCTestCase {
     }
 
     func testExample() throws {
-        // This is an example of a functional test case.
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
-        // Any test you write for XCTest can be annotated as throws and async.
-        // Mark your test throws to produce an unexpected failure when your test encounters an uncaught error.
-        // Mark your test async to allow awaiting for asynchronous code to complete. Check the results with assertions afterwards.
+    
     }
 
     func testPerformanceExample() throws {

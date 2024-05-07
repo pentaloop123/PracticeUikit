@@ -20,7 +20,7 @@ class RedNavigationBar: UINavigationBar {
     // MARK: - Private Methods
     
     @discardableResult func loadNib() -> UIView? {
-        guard let view = Bundle.main.loadNibNamed("NavigationView", owner: self, options: nil)?.first as? UIView else {
+        guard let view = Bundle.main.loadNibNamed("TSNavigationView", owner: self, options: nil)?.first as? UIView else {
             return nil
         }
         view.autoresizingMask = [.flexibleHeight, .flexibleWidth]

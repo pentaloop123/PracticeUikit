@@ -3,8 +3,8 @@ source 'https://github.com/CocoaPods/Specs.git'
 use_frameworks!
 
 def tor
-  pod 'Tor/GeoIP-NoLZMA',
-   '~> 408.10'
+  pod 'Tor/GeoIP',
+  :podspec => 'https://raw.githubusercontent.com/iCepa/Tor.framework/pure_pod/TorStatic.podspec'
 end
 
 def iptproxy
@@ -15,16 +15,20 @@ end
 target 'PracticeUIkit' do
   platform :ios, '15.0'
   
-  tor
-  iptproxy
+  #  tor
+  #  iptproxy
   
-   pod 'Eureka', '~> 5.3'
-   pod 'ProgressHUD', '~> 13.6'
-   pod 'lottie-ios', '~> 4.0'
-   pod 'IQKeyboardManagerSwift'
-   pod 'SwiftyStoreKit'
+  pod 'Eureka', '~> 5.3'
+  pod 'ProgressHUD', '~> 13.6'
+  pod 'lottie-ios', '~> 4.0'
+  pod 'IQKeyboardManagerSwift'
+  pod 'SwiftyStoreKit'
   
-   
+  
+  pod 'AWSS3' 
+#  pod 'AWSCognito', '~> 2.6.13'
+  
+  
 end
 
 
@@ -32,10 +36,10 @@ target 'TorVPN' do
   
   platform :ios, '15.0'
   
-  tor
-  iptproxy
+  #  tor
+  #  iptproxy
   pod 'GCDWebServerExtension', :git => 'https://github.com/tladesignz/GCDWebServer.git'
-   
+  
 end
 
 post_install do |installer|

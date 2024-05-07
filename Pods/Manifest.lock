@@ -1,42 +1,34 @@
 PODS:
+  - AWSCore (2.35.0)
+  - AWSS3 (2.35.0):
+    - AWSCore (= 2.35.0)
   - Eureka (5.4.0)
   - GCDWebServerExtension (3.5.4):
     - GCDWebServerExtension/Core (= 3.5.4)
   - GCDWebServerExtension/Core (3.5.4)
-  - IPtProxy (3.8.1)
-  - IPtProxyUI/AppEx (4.6.0):
-    - Eureka (~> 5.3)
-    - IPtProxy (~> 3.8.1)
   - IQKeyboardManagerSwift (7.0.2)
   - lottie-ios (4.4.2)
   - ProgressHUD (13.8.6)
   - SwiftyStoreKit (0.16.1)
-  - Tor/Core (408.10.1)
-  - Tor/CTor-NoLZMA (408.10.1):
-    - Tor/Core
-  - Tor/GeoIP-NoLZMA (408.10.1):
-    - Tor/CTor-NoLZMA
 
 DEPENDENCIES:
+  - AWSS3
   - Eureka (~> 5.3)
   - GCDWebServerExtension (from `https://github.com/tladesignz/GCDWebServer.git`)
-  - IPtProxyUI/AppEx (~> 4.2)
   - IQKeyboardManagerSwift
   - lottie-ios (~> 4.0)
   - ProgressHUD (~> 13.6)
   - SwiftyStoreKit
-  - Tor/GeoIP-NoLZMA (~> 408.10)
 
 SPEC REPOS:
   https://github.com/CocoaPods/Specs.git:
+    - AWSCore
+    - AWSS3
     - Eureka
-    - IPtProxy
-    - IPtProxyUI
     - IQKeyboardManagerSwift
     - lottie-ios
     - ProgressHUD
     - SwiftyStoreKit
-    - Tor
 
 EXTERNAL SOURCES:
   GCDWebServerExtension:
@@ -48,16 +40,15 @@ CHECKOUT OPTIONS:
     :git: https://github.com/tladesignz/GCDWebServer.git
 
 SPEC CHECKSUMS:
+  AWSCore: f644b48f9508301ba5d2692b5a0c418ca47e1673
+  AWSS3: 062c34dd2765593fe105d1a571d567b62bf26854
   Eureka: fadaa9fa3d6e402d3c60f78f24edf3d7bafc9c29
   GCDWebServerExtension: dd9ca142fd4063d0ffc0944f716646be3c5689b1
-  IPtProxy: d7e37d1faa9b2608b8b5b2743b1a4ae3eb723c5e
-  IPtProxyUI: 1d53690123c7fecc11886b7e9feb461b50e6dd31
   IQKeyboardManagerSwift: d338c11a896e9f29603443700c4567e32f830c22
   lottie-ios: 4445b0bdb583c7a5325529f62246d311ee85fcd0
   ProgressHUD: ee8924300accca88bfa39f6350f757c1c869a69c
   SwiftyStoreKit: 6b9c08810269f030586dac1fae8e75871a82e84a
-  Tor: 4aa4aee031f892efa43d1afb01c90565990c6312
 
-PODFILE CHECKSUM: 988c6ef91e0dbac08a62ed2fda2e88389dbbc82c
+PODFILE CHECKSUM: fd88403b78c3847bede188baf967c85c27832734
 
 COCOAPODS: 1.15.2
