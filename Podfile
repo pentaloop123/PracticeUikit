@@ -23,7 +23,8 @@ target 'PracticeUIkit' do
   pod 'lottie-ios', '~> 4.0'
   pod 'IQKeyboardManagerSwift'
   pod 'SwiftyStoreKit'
-  
+  pod 'CouchbaseLite-Swift'
+
   
   pod 'AWSS3' 
 #  pod 'AWSCognito', '~> 2.6.13'

@@ -8,17 +8,27 @@
 
 /* Begin PBXBuildFile section */
 		5103535FE83F2C847A4A0FEB /* Pods_TorVPN.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 167B81C38B6284733E4E0341 /* Pods_TorVPN.framework */; };
+		B20E1C8E2BF4C0750092771E /* DiscountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B20E1C8D2BF4C0750092771E /* DiscountViewController.swift */; };
+		B218A3122BF6253A00311207 /* AddressBookVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B218A3112BF6253A00311207 /* AddressBookVC.swift */; };
+		B219DE782BF5EF5300BF0089 /* ContactViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B219DE772BF5EF5300BF0089 /* ContactViewController.m */; };
+		B219DE7D2BF5F8EE00BF0089 /* ContactSwiftVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B219DE7C2BF5F8EE00BF0089 /* ContactSwiftVC.swift */; };
+		B219DE7F2BF614EA00BF0089 /* DirectContactVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B219DE7E2BF614EA00BF0089 /* DirectContactVC.swift */; };
 		B2247D472BC3C42400D1A3E0 /* SwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2247D462BC3C42400D1A3E0 /* SwiftUIView.swift */; };
 		B24073512BC3D48C0015CF26 /* VpnManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B24073502BC3D48C0015CF26 /* VpnManager.swift */; };
 		B24073532BC3D4960015CF26 /* TorManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B24073522BC3D4960015CF26 /* TorManager.swift */; };
 		B24073552BC3D5650015CF26 /* VStatusManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B24073542BC3D5650015CF26 /* VStatusManager.swift */; };
 		B24073572BC3DBD80015CF26 /* SharedUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = B24073562BC3DBD80015CF26 /* SharedUtils.swift */; };
+		B25338472BF4719B00F5E8BB /* CoreDataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B25338462BF4719B00F5E8BB /* CoreDataViewController.swift */; };
+		B253384A2BF471E400F5E8BB /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B25338482BF471E400F5E8BB /* Model.xcdatamodeld */; };
 		B2556EA62BDB9238005C24CE /* ChildSwiftUIVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2556EA52BDB9238005C24CE /* ChildSwiftUIVC.swift */; };
+		B25701792BFB807C00B8CB8B /* SwitchesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B25701782BFB807C00B8CB8B /* SwitchesViewController.swift */; };
 		B25A4EB72BBE8EBA0095AFAD /* Podfile.lock in Resources */ = {isa = PBXBuildFile; fileRef = B25A4EB62BBE8EBA0095AFAD /* Podfile.lock */; };
 		B25A4EBB2BBEB0600095AFAD /* leaf in Resources */ = {isa = PBXBuildFile; fileRef = B25A4EBA2BBEB0600095AFAD /* leaf */; };
 		B25A4EBC2BBEB0600095AFAD /* leaf in Resources */ = {isa = PBXBuildFile; fileRef = B25A4EBA2BBEB0600095AFAD /* leaf */; };
+		B260C85C2BECBFEB007ECCE4 /* LayoutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B260C85B2BECBFEB007ECCE4 /* LayoutViewController.swift */; };
 		B26860BD2BC408AB0088C643 /* TestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B26860BC2BC408AB0088C643 /* TestViewController.swift */; };
 		B26860BF2BC409070088C643 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B26860BE2BC409070088C643 /* BaseViewController.swift */; };
+		B2858A3F2C08BE35006C2DEB /* DIctViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2858A3E2C08BE35006C2DEB /* DIctViewController.swift */; };
 		B287E1EB2BBD7F5100367B99 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B287E1EA2BBD7F5100367B99 /* AppDelegate.swift */; };
 		B287E1ED2BBD7F5100367B99 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B287E1EC2BBD7F5100367B99 /* SceneDelegate.swift */; };
 		B287E1EF2BBD7F5100367B99 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B287E1EE2BBD7F5100367B99 /* ViewController.swift */; };
@@ -35,11 +45,13 @@
 		B2B51AB42BD7BCA20057F639 /* TSNavigationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2B51AB32BD7BCA20057F639 /* TSNavigationView.swift */; };
 		B2B51AB62BD7BD3D0057F639 /* CINavigationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2B51AB52BD7BD3D0057F639 /* CINavigationBar.swift */; };
 		B2CBADC42BEA67C1008C41E1 /* CouchBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2CBADC32BEA67C1008C41E1 /* CouchBaseViewController.swift */; };
+		B2D8602D2BEB59650070A0B2 /* DarkModeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2D8602C2BEB59650070A0B2 /* DarkModeViewController.swift */; };
 		B2F77E772BD0F6F30056448D /* PracticeUIkitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2F77E762BD0F6F30056448D /* PracticeUIkitTests.swift */; };
 		B2F77E7F2BD0F7590056448D /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2F77E7E2BD0F7590056448D /* UIView+Extension.swift */; };
 		B2F77E822BD0F7910056448D /* Vehicle.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2F77E812BD0F7910056448D /* Vehicle.swift */; };
 		B2F77E862BD0F82F0056448D /* VehicleTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2F77E852BD0F82F0056448D /* VehicleTest.swift */; };
 		B2F77E882BD0FAA50056448D /* SystemScanTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2F77E872BD0FAA50056448D /* SystemScanTest.swift */; };
+		B2F794DA2BFC6AEF00489365 /* ScrollTestVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2F794D92BFC6AEF00489365 /* ScrollTestVC.swift */; };
 		E2F6C72967F49AA3A3089179 /* Pods_PracticeUIkit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79C8B1901EBF8090511634FC /* Pods_PracticeUIkit.framework */; };
 /* End PBXBuildFile section */
 
@@ -80,16 +92,27 @@
 		9D5BC0E95F4B506D66E428E5 /* Pods-TorVPN.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TorVPN.release.xcconfig"; path = "Target Support Files/Pods-TorVPN/Pods-TorVPN.release.xcconfig"; sourceTree = "<group>"; };
 		A3D0B6532D1831FF508BD273 /* Pods-TorVPN.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TorVPN.debug.xcconfig"; path = "Target Support Files/Pods-TorVPN/Pods-TorVPN.debug.xcconfig"; sourceTree = "<group>"; };
 		AA901D5268E3C8DB07200B0A /* Pods-PracticeUIkit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PracticeUIkit.debug.xcconfig"; path = "Target Support Files/Pods-PracticeUIkit/Pods-PracticeUIkit.debug.xcconfig"; sourceTree = "<group>"; };
+		B20E1C8D2BF4C0750092771E /* DiscountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscountViewController.swift; sourceTree = "<group>"; };
+		B218A3112BF6253A00311207 /* AddressBookVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddressBookVC.swift; sourceTree = "<group>"; };
+		B219DE762BF5EF5300BF0089 /* ContactViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ContactViewController.h; sourceTree = "<group>"; };
+		B219DE772BF5EF5300BF0089 /* ContactViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ContactViewController.m; sourceTree = "<group>"; };
+		B219DE7C2BF5F8EE00BF0089 /* ContactSwiftVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactSwiftVC.swift; sourceTree = "<group>"; };
+		B219DE7E2BF614EA00BF0089 /* DirectContactVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DirectContactVC.swift; sourceTree = "<group>"; };
 		B2247D462BC3C42400D1A3E0 /* SwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIView.swift; sourceTree = "<group>"; };
 		B24073502BC3D48C0015CF26 /* VpnManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VpnManager.swift; sourceTree = "<group>"; };
 		B24073522BC3D4960015CF26 /* TorManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TorManager.swift; sourceTree = "<group>"; };
 		B24073542BC3D5650015CF26 /* VStatusManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VStatusManager.swift; sourceTree = "<group>"; };
 		B24073562BC3DBD80015CF26 /* SharedUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SharedUtils.swift; sourceTree = "<group>"; };
+		B25338462BF4719B00F5E8BB /* CoreDataViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataViewController.swift; sourceTree = "<group>"; };
+		B25338492BF471E400F5E8BB /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
 		B2556EA52BDB9238005C24CE /* ChildSwiftUIVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChildSwiftUIVC.swift; sourceTree = "<group>"; };
+		B25701782BFB807C00B8CB8B /* SwitchesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwitchesViewController.swift; sourceTree = "<group>"; };
 		B25A4EB62BBE8EBA0095AFAD /* Podfile.lock */ = {isa = PBXFileReference; lastKnownFileType = text; path = Podfile.lock; sourceTree = SOURCE_ROOT; };
 		B25A4EBA2BBEB0600095AFAD /* leaf */ = {isa = PBXFileReference; lastKnownFileType = folder; path = leaf; sourceTree = "<group>"; };
+		B260C85B2BECBFEB007ECCE4 /* LayoutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LayoutViewController.swift; sourceTree = "<group>"; };
 		B26860BC2BC408AB0088C643 /* TestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestViewController.swift; sourceTree = "<group>"; };
 		B26860BE2BC409070088C643 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		B2858A3E2C08BE35006C2DEB /* DIctViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DIctViewController.swift; sourceTree = "<group>"; };
 		B287E1E72BBD7F5100367B99 /* PracticeUIkit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PracticeUIkit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B287E1EA2BBD7F5100367B99 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B287E1EC2BBD7F5100367B99 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -113,12 +136,14 @@
 		B2B51AB32BD7BCA20057F639 /* TSNavigationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TSNavigationView.swift; sourceTree = "<group>"; };
 		B2B51AB52BD7BD3D0057F639 /* CINavigationBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CINavigationBar.swift; sourceTree = "<group>"; };
 		B2CBADC32BEA67C1008C41E1 /* CouchBaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CouchBaseViewController.swift; sourceTree = "<group>"; };
+		B2D8602C2BEB59650070A0B2 /* DarkModeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DarkModeViewController.swift; sourceTree = "<group>"; };
 		B2F77E742BD0F6F20056448D /* PracticeUIkitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PracticeUIkitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B2F77E762BD0F6F30056448D /* PracticeUIkitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PracticeUIkitTests.swift; sourceTree = "<group>"; };
 		B2F77E7E2BD0F7590056448D /* UIView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
 		B2F77E812BD0F7910056448D /* Vehicle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vehicle.swift; sourceTree = "<group>"; };
 		B2F77E852BD0F82F0056448D /* VehicleTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VehicleTest.swift; sourceTree = "<group>"; };
 		B2F77E872BD0FAA50056448D /* SystemScanTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SystemScanTest.swift; sourceTree = "<group>"; };
+		B2F794D92BFC6AEF00489365 /* ScrollTestVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollTestVC.swift; sourceTree = "<group>"; };
 		FB0A7EC4049AED76D2918127 /* Pods-PracticeUIkit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PracticeUIkit.release.xcconfig"; path = "Target Support Files/Pods-PracticeUIkit/Pods-PracticeUIkit.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -161,6 +186,26 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
+		B20E1C8C2BF4C0640092771E /* Radio Selection */ = {
+			isa = PBXGroup;
+			children = (
+				B20E1C8D2BF4C0750092771E /* DiscountViewController.swift */,
+			);
+			path = "Radio Selection";
+			sourceTree = "<group>";
+		};
+		B219DE752BF5EF3F00BF0089 /* Contacts */ = {
+			isa = PBXGroup;
+			children = (
+				B219DE762BF5EF5300BF0089 /* ContactViewController.h */,
+				B219DE772BF5EF5300BF0089 /* ContactViewController.m */,
+				B219DE7C2BF5F8EE00BF0089 /* ContactSwiftVC.swift */,
+				B219DE7E2BF614EA00BF0089 /* DirectContactVC.swift */,
+				B218A3112BF6253A00311207 /* AddressBookVC.swift */,
+			);
+			path = Contacts;
+			sourceTree = "<group>";
+		};
 		B240734F2BC3D4730015CF26 /* Configuration */ = {
 			isa = PBXGroup;
 			children = (
@@ -172,13 +217,36 @@
 			path = Configuration;
 			sourceTree = "<group>";
 		};
+		B25338452BF4717C00F5E8BB /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				B25338462BF4719B00F5E8BB /* CoreDataViewController.swift */,
+				B25338482BF471E400F5E8BB /* Model.xcdatamodeld */,
+			);
+			path = CoreData;
+			sourceTree = "<group>";
+		};
 		B2556EA22BDB91D3005C24CE /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				B2F794D82BFC6AD100489365 /* ScrollView */,
+				B25701772BFB806E00B8CB8B /* Switches */,
+				B219DE752BF5EF3F00BF0089 /* Contacts */,
+				B20E1C8C2BF4C0640092771E /* Radio Selection */,
+				B25338452BF4717C00F5E8BB /* CoreData */,
+				B2D8602B2BEB594A0070A0B2 /* DarkLightMode */,
 				B2556EA52BDB9238005C24CE /* ChildSwiftUIVC.swift */,
 				B2CBADC32BEA67C1008C41E1 /* CouchBaseViewController.swift */,
 			);
 			path = Controller;
+			sourceTree = "<group>";
+		};
+		B25701772BFB806E00B8CB8B /* Switches */ = {
+			isa = PBXGroup;
+			children = (
+				B25701782BFB807C00B8CB8B /* SwitchesViewController.swift */,
+			);
+			path = Switches;
 			sourceTree = "<group>";
 		};
 		B287E1DE2BBD7F5100367B99 = {
@@ -271,6 +339,15 @@
 			path = NavigationView;
 			sourceTree = "<group>";
 		};
+		B2D8602B2BEB594A0070A0B2 /* DarkLightMode */ = {
+			isa = PBXGroup;
+			children = (
+				B2D8602C2BEB59650070A0B2 /* DarkModeViewController.swift */,
+				B260C85B2BECBFEB007ECCE4 /* LayoutViewController.swift */,
+			);
+			path = DarkLightMode;
+			sourceTree = "<group>";
+		};
 		B2F77E752BD0F6F30056448D /* PracticeUIkitTests */ = {
 			isa = PBXGroup;
 			children = (
@@ -295,6 +372,15 @@
 				B2F77E812BD0F7910056448D /* Vehicle.swift */,
 			);
 			path = Manager;
+			sourceTree = "<group>";
+		};
+		B2F794D82BFC6AD100489365 /* ScrollView */ = {
+			isa = PBXGroup;
+			children = (
+				B2F794D92BFC6AEF00489365 /* ScrollTestVC.swift */,
+				B2858A3E2C08BE35006C2DEB /* DIctViewController.swift */,
+			);
+			path = ScrollView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -505,24 +591,36 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B25701792BFB807C00B8CB8B /* SwitchesViewController.swift in Sources */,
 				B2CBADC42BEA67C1008C41E1 /* CouchBaseViewController.swift in Sources */,
 				B26860BD2BC408AB0088C643 /* TestViewController.swift in Sources */,
 				B2B51AB62BD7BD3D0057F639 /* CINavigationBar.swift in Sources */,
+				B25338472BF4719B00F5E8BB /* CoreDataViewController.swift in Sources */,
 				B2F77E7F2BD0F7590056448D /* UIView+Extension.swift in Sources */,
 				B287E1EF2BBD7F5100367B99 /* ViewController.swift in Sources */,
 				B26860BF2BC409070088C643 /* BaseViewController.swift in Sources */,
 				B2556EA62BDB9238005C24CE /* ChildSwiftUIVC.swift in Sources */,
 				B2F77E822BD0F7910056448D /* Vehicle.swift in Sources */,
+				B253384A2BF471E400F5E8BB /* Model.xcdatamodeld in Sources */,
+				B219DE7F2BF614EA00BF0089 /* DirectContactVC.swift in Sources */,
+				B2F794DA2BFC6AEF00489365 /* ScrollTestVC.swift in Sources */,
 				B287E1EB2BBD7F5100367B99 /* AppDelegate.swift in Sources */,
 				B24073572BC3DBD80015CF26 /* SharedUtils.swift in Sources */,
+				B219DE7D2BF5F8EE00BF0089 /* ContactSwiftVC.swift in Sources */,
+				B260C85C2BECBFEB007ECCE4 /* LayoutViewController.swift in Sources */,
+				B219DE782BF5EF5300BF0089 /* ContactViewController.m in Sources */,
 				B2B51AB42BD7BCA20057F639 /* TSNavigationView.swift in Sources */,
 				B24073512BC3D48C0015CF26 /* VpnManager.swift in Sources */,
+				B20E1C8E2BF4C0750092771E /* DiscountViewController.swift in Sources */,
+				B218A3122BF6253A00311207 /* AddressBookVC.swift in Sources */,
 				B2A493842BD0E92D0026D311 /* SystemScanViewController.swift in Sources */,
 				B24073532BC3D4960015CF26 /* TorManager.swift in Sources */,
 				B24073552BC3D5650015CF26 /* VStatusManager.swift in Sources */,
 				B287E1ED2BBD7F5100367B99 /* SceneDelegate.swift in Sources */,
+				B2858A3F2C08BE35006C2DEB /* DIctViewController.swift in Sources */,
 				B28CB9AC2BBEC9BD0043EF5D /* HelloViewController.m in Sources */,
 				B2247D472BC3C42400D1A3E0 /* SwiftUIView.swift in Sources */,
+				B2D8602D2BEB59650070A0B2 /* DarkModeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -710,6 +808,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = JA3932A9M6;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = PracticeUIkit/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -744,6 +846,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = JA3932A9M6;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = PracticeUIkit/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -911,6 +1017,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		B25338482BF471E400F5E8BB /* Model.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				B25338492BF471E400F5E8BB /* Model.xcdatamodel */,
+			);
+			currentVersion = B25338492BF471E400F5E8BB /* Model.xcdatamodel */;
+			path = Model.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = B287E1DF2BBD7F5100367B99 /* Project object */;
 }

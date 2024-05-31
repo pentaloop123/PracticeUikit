@@ -2,6 +2,7 @@ PODS:
   - AWSCore (2.35.0)
   - AWSS3 (2.35.0):
     - AWSCore (= 2.35.0)
+  - CouchbaseLite-Swift (3.1.6)
   - Eureka (5.4.0)
   - GCDWebServerExtension (3.5.4):
     - GCDWebServerExtension/Core (= 3.5.4)
@@ -13,6 +14,7 @@ PODS:
 
 DEPENDENCIES:
   - AWSS3
+  - CouchbaseLite-Swift
   - Eureka (~> 5.3)
   - GCDWebServerExtension (from `https://github.com/tladesignz/GCDWebServer.git`)
   - IQKeyboardManagerSwift
@@ -24,6 +26,7 @@ SPEC REPOS:
   https://github.com/CocoaPods/Specs.git:
     - AWSCore
     - AWSS3
+    - CouchbaseLite-Swift
     - Eureka
     - IQKeyboardManagerSwift
     - lottie-ios
@@ -42,6 +45,7 @@ CHECKOUT OPTIONS:
 SPEC CHECKSUMS:
   AWSCore: f644b48f9508301ba5d2692b5a0c418ca47e1673
   AWSS3: 062c34dd2765593fe105d1a571d567b62bf26854
+  CouchbaseLite-Swift: 47e5e85a968d1ef8a02067f3d9300c7b03831cf2
   Eureka: fadaa9fa3d6e402d3c60f78f24edf3d7bafc9c29
   GCDWebServerExtension: dd9ca142fd4063d0ffc0944f716646be3c5689b1
   IQKeyboardManagerSwift: d338c11a896e9f29603443700c4567e32f830c22
@@ -49,6 +53,6 @@ SPEC CHECKSUMS:
   ProgressHUD: ee8924300accca88bfa39f6350f757c1c869a69c
   SwiftyStoreKit: 6b9c08810269f030586dac1fae8e75871a82e84a
 
-PODFILE CHECKSUM: fd88403b78c3847bede188baf967c85c27832734
+PODFILE CHECKSUM: 0fcb30f3ea5be1ca5b5ffefbdc4017b3322de9c4
 
 COCOAPODS: 1.15.2
