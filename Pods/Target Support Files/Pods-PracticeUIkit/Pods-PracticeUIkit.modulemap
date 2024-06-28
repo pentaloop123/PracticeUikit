@@ -1,6 +1,0 @@
-framework module Pods_PracticeUIkit {
-  umbrella header "Pods-PracticeUIkit-umbrella.h"
-
-  export *
-  module * { export * }
-}

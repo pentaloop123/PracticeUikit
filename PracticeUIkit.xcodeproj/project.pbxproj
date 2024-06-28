@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5103535FE83F2C847A4A0FEB /* Pods_TorVPN.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 167B81C38B6284733E4E0341 /* Pods_TorVPN.framework */; };
 		B20E1C8E2BF4C0750092771E /* DiscountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B20E1C8D2BF4C0750092771E /* DiscountViewController.swift */; };
 		B218A3122BF6253A00311207 /* AddressBookVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B218A3112BF6253A00311207 /* AddressBookVC.swift */; };
 		B219DE782BF5EF5300BF0089 /* ContactViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B219DE772BF5EF5300BF0089 /* ContactViewController.m */; };
@@ -18,14 +17,20 @@
 		B24073532BC3D4960015CF26 /* TorManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B24073522BC3D4960015CF26 /* TorManager.swift */; };
 		B24073552BC3D5650015CF26 /* VStatusManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B24073542BC3D5650015CF26 /* VStatusManager.swift */; };
 		B24073572BC3DBD80015CF26 /* SharedUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = B24073562BC3DBD80015CF26 /* SharedUtils.swift */; };
+		B24DD0492C099D96007608A2 /* OnionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B24DD0482C099D96007608A2 /* OnionViewController.swift */; };
 		B25338472BF4719B00F5E8BB /* CoreDataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B25338462BF4719B00F5E8BB /* CoreDataViewController.swift */; };
 		B253384A2BF471E400F5E8BB /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B25338482BF471E400F5E8BB /* Model.xcdatamodeld */; };
+		B253FFB32C1837320026CDD2 /* CouchBaseImplementation.swift in Sources */ = {isa = PBXBuildFile; fileRef = B253FFB22C1837320026CDD2 /* CouchBaseImplementation.swift */; };
 		B2556EA62BDB9238005C24CE /* ChildSwiftUIVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2556EA52BDB9238005C24CE /* ChildSwiftUIVC.swift */; };
 		B25701792BFB807C00B8CB8B /* SwitchesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B25701782BFB807C00B8CB8B /* SwitchesViewController.swift */; };
-		B25A4EB72BBE8EBA0095AFAD /* Podfile.lock in Resources */ = {isa = PBXBuildFile; fileRef = B25A4EB62BBE8EBA0095AFAD /* Podfile.lock */; };
-		B25A4EBB2BBEB0600095AFAD /* leaf in Resources */ = {isa = PBXBuildFile; fileRef = B25A4EBA2BBEB0600095AFAD /* leaf */; };
-		B25A4EBC2BBEB0600095AFAD /* leaf in Resources */ = {isa = PBXBuildFile; fileRef = B25A4EBA2BBEB0600095AFAD /* leaf */; };
 		B260C85C2BECBFEB007ECCE4 /* LayoutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B260C85B2BECBFEB007ECCE4 /* LayoutViewController.swift */; };
+		B260C8612C2D4B1300C464A1 /* SocialLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B260C8602C2D4B1300C464A1 /* SocialLoginViewController.swift */; };
+		B260C8642C2D52E200C464A1 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B260C8632C2D52E200C464A1 /* GoogleService-Info.plist */; };
+		B260C8672C2D547A00C464A1 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = B260C8662C2D547A00C464A1 /* Constant.swift */; };
+		B260C8692C2D54C300C464A1 /* client_839814360640-8b9v141upf8ndhh6o2um38ojc24caoq4.apps.googleusercontent.com.plist in Resources */ = {isa = PBXBuildFile; fileRef = B260C8682C2D54C300C464A1 /* client_839814360640-8b9v141upf8ndhh6o2um38ojc24caoq4.apps.googleusercontent.com.plist */; };
+		B260C86C2C2D86A000C464A1 /* GoogleSignInManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B260C86B2C2D86A000C464A1 /* GoogleSignInManager.swift */; };
+		B26237A22C104D3C0020E665 /*  YSSegmentedControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = B26237A12C104D3C0020E665 /*  YSSegmentedControl.swift */; };
+		B26237A52C104DBB0020E665 /* SegmentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B26237A42C104DBB0020E665 /* SegmentViewController.swift */; };
 		B26860BD2BC408AB0088C643 /* TestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B26860BC2BC408AB0088C643 /* TestViewController.swift */; };
 		B26860BF2BC409070088C643 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B26860BE2BC409070088C643 /* BaseViewController.swift */; };
 		B2858A3F2C08BE35006C2DEB /* DIctViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2858A3E2C08BE35006C2DEB /* DIctViewController.swift */; };
@@ -35,9 +40,6 @@
 		B287E1F22BBD7F5100367B99 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B287E1F02BBD7F5100367B99 /* Main.storyboard */; };
 		B287E1F42BBD7F5200367B99 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B287E1F32BBD7F5200367B99 /* Assets.xcassets */; };
 		B287E1F72BBD7F5200367B99 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B287E1F52BBD7F5200367B99 /* LaunchScreen.storyboard */; };
-		B287E2052BBD7FAB00367B99 /* NetworkExtension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B287E2042BBD7FAB00367B99 /* NetworkExtension.framework */; };
-		B287E2082BBD7FAB00367B99 /* AppProxyProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = B287E2072BBD7FAB00367B99 /* AppProxyProvider.swift */; };
-		B287E20D2BBD7FAB00367B99 /* TorVPN.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = B287E2022BBD7FAB00367B99 /* TorVPN.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		B28CB9AC2BBEC9BD0043EF5D /* HelloViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B28CB9AB2BBEC9BD0043EF5D /* HelloViewController.m */; };
 		B2A493822BD0E8D50026D311 /* SystemScan.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B2A493812BD0E8D50026D311 /* SystemScan.storyboard */; };
 		B2A493842BD0E92D0026D311 /* SystemScanViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2A493832BD0E92D0026D311 /* SystemScanViewController.swift */; };
@@ -46,31 +48,11 @@
 		B2B51AB62BD7BD3D0057F639 /* CINavigationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2B51AB52BD7BD3D0057F639 /* CINavigationBar.swift */; };
 		B2CBADC42BEA67C1008C41E1 /* CouchBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2CBADC32BEA67C1008C41E1 /* CouchBaseViewController.swift */; };
 		B2D8602D2BEB59650070A0B2 /* DarkModeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2D8602C2BEB59650070A0B2 /* DarkModeViewController.swift */; };
-		B2F77E772BD0F6F30056448D /* PracticeUIkitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2F77E762BD0F6F30056448D /* PracticeUIkitTests.swift */; };
 		B2F77E7F2BD0F7590056448D /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2F77E7E2BD0F7590056448D /* UIView+Extension.swift */; };
 		B2F77E822BD0F7910056448D /* Vehicle.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2F77E812BD0F7910056448D /* Vehicle.swift */; };
-		B2F77E862BD0F82F0056448D /* VehicleTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2F77E852BD0F82F0056448D /* VehicleTest.swift */; };
-		B2F77E882BD0FAA50056448D /* SystemScanTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2F77E872BD0FAA50056448D /* SystemScanTest.swift */; };
 		B2F794DA2BFC6AEF00489365 /* ScrollTestVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2F794D92BFC6AEF00489365 /* ScrollTestVC.swift */; };
 		E2F6C72967F49AA3A3089179 /* Pods_PracticeUIkit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79C8B1901EBF8090511634FC /* Pods_PracticeUIkit.framework */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		B287E20B2BBD7FAB00367B99 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = B287E1DF2BBD7F5100367B99 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = B287E2012BBD7FAB00367B99;
-			remoteInfo = TorVPN;
-		};
-		B2F77E782BD0F6F30056448D /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = B287E1DF2BBD7F5100367B99 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = B287E1E62BBD7F5100367B99;
-			remoteInfo = PracticeUIkit;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
 		B287E2112BBD7FAB00367B99 /* Embed Foundation Extensions */ = {
@@ -79,7 +61,6 @@
 			dstPath = "";
 			dstSubfolderSpec = 13;
 			files = (
-				B287E20D2BBD7FAB00367B99 /* TorVPN.appex in Embed Foundation Extensions */,
 			);
 			name = "Embed Foundation Extensions";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -89,9 +70,6 @@
 /* Begin PBXFileReference section */
 		167B81C38B6284733E4E0341 /* Pods_TorVPN.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TorVPN.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		79C8B1901EBF8090511634FC /* Pods_PracticeUIkit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PracticeUIkit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		9D5BC0E95F4B506D66E428E5 /* Pods-TorVPN.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TorVPN.release.xcconfig"; path = "Target Support Files/Pods-TorVPN/Pods-TorVPN.release.xcconfig"; sourceTree = "<group>"; };
-		A3D0B6532D1831FF508BD273 /* Pods-TorVPN.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TorVPN.debug.xcconfig"; path = "Target Support Files/Pods-TorVPN/Pods-TorVPN.debug.xcconfig"; sourceTree = "<group>"; };
-		AA901D5268E3C8DB07200B0A /* Pods-PracticeUIkit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PracticeUIkit.debug.xcconfig"; path = "Target Support Files/Pods-PracticeUIkit/Pods-PracticeUIkit.debug.xcconfig"; sourceTree = "<group>"; };
 		B20E1C8D2BF4C0750092771E /* DiscountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscountViewController.swift; sourceTree = "<group>"; };
 		B218A3112BF6253A00311207 /* AddressBookVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddressBookVC.swift; sourceTree = "<group>"; };
 		B219DE762BF5EF5300BF0089 /* ContactViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ContactViewController.h; sourceTree = "<group>"; };
@@ -103,13 +81,20 @@
 		B24073522BC3D4960015CF26 /* TorManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TorManager.swift; sourceTree = "<group>"; };
 		B24073542BC3D5650015CF26 /* VStatusManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VStatusManager.swift; sourceTree = "<group>"; };
 		B24073562BC3DBD80015CF26 /* SharedUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SharedUtils.swift; sourceTree = "<group>"; };
+		B24DD0482C099D96007608A2 /* OnionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnionViewController.swift; sourceTree = "<group>"; };
 		B25338462BF4719B00F5E8BB /* CoreDataViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataViewController.swift; sourceTree = "<group>"; };
 		B25338492BF471E400F5E8BB /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
+		B253FFB22C1837320026CDD2 /* CouchBaseImplementation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CouchBaseImplementation.swift; sourceTree = "<group>"; };
 		B2556EA52BDB9238005C24CE /* ChildSwiftUIVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChildSwiftUIVC.swift; sourceTree = "<group>"; };
 		B25701782BFB807C00B8CB8B /* SwitchesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwitchesViewController.swift; sourceTree = "<group>"; };
-		B25A4EB62BBE8EBA0095AFAD /* Podfile.lock */ = {isa = PBXFileReference; lastKnownFileType = text; path = Podfile.lock; sourceTree = SOURCE_ROOT; };
-		B25A4EBA2BBEB0600095AFAD /* leaf */ = {isa = PBXFileReference; lastKnownFileType = folder; path = leaf; sourceTree = "<group>"; };
 		B260C85B2BECBFEB007ECCE4 /* LayoutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LayoutViewController.swift; sourceTree = "<group>"; };
+		B260C8602C2D4B1300C464A1 /* SocialLoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocialLoginViewController.swift; sourceTree = "<group>"; };
+		B260C8632C2D52E200C464A1 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		B260C8662C2D547A00C464A1 /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		B260C8682C2D54C300C464A1 /* client_839814360640-8b9v141upf8ndhh6o2um38ojc24caoq4.apps.googleusercontent.com.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "client_839814360640-8b9v141upf8ndhh6o2um38ojc24caoq4.apps.googleusercontent.com.plist"; sourceTree = "<group>"; };
+		B260C86B2C2D86A000C464A1 /* GoogleSignInManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoogleSignInManager.swift; sourceTree = "<group>"; };
+		B26237A12C104D3C0020E665 /*  YSSegmentedControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = " YSSegmentedControl.swift"; sourceTree = "<group>"; };
+		B26237A42C104DBB0020E665 /* SegmentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SegmentViewController.swift; sourceTree = "<group>"; };
 		B26860BC2BC408AB0088C643 /* TestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestViewController.swift; sourceTree = "<group>"; };
 		B26860BE2BC409070088C643 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
 		B2858A3E2C08BE35006C2DEB /* DIctViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DIctViewController.swift; sourceTree = "<group>"; };
@@ -121,11 +106,7 @@
 		B287E1F32BBD7F5200367B99 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B287E1F62BBD7F5200367B99 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B287E1F82BBD7F5200367B99 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B287E2022BBD7FAB00367B99 /* TorVPN.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = TorVPN.appex; sourceTree = BUILT_PRODUCTS_DIR; };
 		B287E2042BBD7FAB00367B99 /* NetworkExtension.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NetworkExtension.framework; path = System/Library/Frameworks/NetworkExtension.framework; sourceTree = SDKROOT; };
-		B287E2072BBD7FAB00367B99 /* AppProxyProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppProxyProvider.swift; sourceTree = "<group>"; };
-		B287E2092BBD7FAB00367B99 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B287E20A2BBD7FAB00367B99 /* TorVPN.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = TorVPN.entitlements; sourceTree = "<group>"; };
 		B287E2122BBD7FD000367B99 /* PracticeUIkit.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = PracticeUIkit.entitlements; sourceTree = "<group>"; };
 		B28CB9A92BBEC9BC0043EF5D /* PracticeUIkit-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PracticeUIkit-Bridging-Header.h"; sourceTree = "<group>"; };
 		B28CB9AA2BBEC9BD0043EF5D /* HelloViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HelloViewController.h; sourceTree = "<group>"; };
@@ -137,14 +118,9 @@
 		B2B51AB52BD7BD3D0057F639 /* CINavigationBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CINavigationBar.swift; sourceTree = "<group>"; };
 		B2CBADC32BEA67C1008C41E1 /* CouchBaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CouchBaseViewController.swift; sourceTree = "<group>"; };
 		B2D8602C2BEB59650070A0B2 /* DarkModeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DarkModeViewController.swift; sourceTree = "<group>"; };
-		B2F77E742BD0F6F20056448D /* PracticeUIkitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PracticeUIkitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		B2F77E762BD0F6F30056448D /* PracticeUIkitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PracticeUIkitTests.swift; sourceTree = "<group>"; };
 		B2F77E7E2BD0F7590056448D /* UIView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
 		B2F77E812BD0F7910056448D /* Vehicle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vehicle.swift; sourceTree = "<group>"; };
-		B2F77E852BD0F82F0056448D /* VehicleTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VehicleTest.swift; sourceTree = "<group>"; };
-		B2F77E872BD0FAA50056448D /* SystemScanTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SystemScanTest.swift; sourceTree = "<group>"; };
 		B2F794D92BFC6AEF00489365 /* ScrollTestVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollTestVC.swift; sourceTree = "<group>"; };
-		FB0A7EC4049AED76D2918127 /* Pods-PracticeUIkit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PracticeUIkit.release.xcconfig"; path = "Target Support Files/Pods-PracticeUIkit/Pods-PracticeUIkit.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -156,36 +132,9 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B287E1FF2BBD7FAB00367B99 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				B287E2052BBD7FAB00367B99 /* NetworkExtension.framework in Frameworks */,
-				5103535FE83F2C847A4A0FEB /* Pods_TorVPN.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		B2F77E712BD0F6F20056448D /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		645C6D34AEF30F29732377E4 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				AA901D5268E3C8DB07200B0A /* Pods-PracticeUIkit.debug.xcconfig */,
-				FB0A7EC4049AED76D2918127 /* Pods-PracticeUIkit.release.xcconfig */,
-				A3D0B6532D1831FF508BD273 /* Pods-TorVPN.debug.xcconfig */,
-				9D5BC0E95F4B506D66E428E5 /* Pods-TorVPN.release.xcconfig */,
-			);
-			path = Pods;
-			sourceTree = "<group>";
-		};
 		B20E1C8C2BF4C0640092771E /* Radio Selection */ = {
 			isa = PBXGroup;
 			children = (
@@ -217,6 +166,14 @@
 			path = Configuration;
 			sourceTree = "<group>";
 		};
+		B24DD0472C099D86007608A2 /* TorViewController */ = {
+			isa = PBXGroup;
+			children = (
+				B24DD0482C099D96007608A2 /* OnionViewController.swift */,
+			);
+			path = TorViewController;
+			sourceTree = "<group>";
+		};
 		B25338452BF4717C00F5E8BB /* CoreData */ = {
 			isa = PBXGroup;
 			children = (
@@ -229,6 +186,8 @@
 		B2556EA22BDB91D3005C24CE /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				B26237A32C104DA80020E665 /* SegmentView */,
+				B24DD0472C099D86007608A2 /* TorViewController */,
 				B2F794D82BFC6AD100489365 /* ScrollView */,
 				B25701772BFB806E00B8CB8B /* Switches */,
 				B219DE752BF5EF3F00BF0089 /* Contacts */,
@@ -249,16 +208,56 @@
 			path = Switches;
 			sourceTree = "<group>";
 		};
+		B260C85F2C2D4AFD00C464A1 /* Social Logins */ = {
+			isa = PBXGroup;
+			children = (
+				B260C86A2C2D869600C464A1 /* Manager */,
+				B260C8602C2D4B1300C464A1 /* SocialLoginViewController.swift */,
+			);
+			path = "Social Logins";
+			sourceTree = "<group>";
+		};
+		B260C8622C2D52D200C464A1 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B260C8682C2D54C300C464A1 /* client_839814360640-8b9v141upf8ndhh6o2um38ojc24caoq4.apps.googleusercontent.com.plist */,
+				B260C8632C2D52E200C464A1 /* GoogleService-Info.plist */,
+				B260C8662C2D547A00C464A1 /* Constant.swift */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		B260C86A2C2D869600C464A1 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				B260C86B2C2D86A000C464A1 /* GoogleSignInManager.swift */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		B26237A02C104D240020E665 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				B26237A12C104D3C0020E665 /*  YSSegmentedControl.swift */,
+				B253FFB22C1837320026CDD2 /* CouchBaseImplementation.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		B26237A32C104DA80020E665 /* SegmentView */ = {
+			isa = PBXGroup;
+			children = (
+				B26237A42C104DBB0020E665 /* SegmentViewController.swift */,
+			);
+			path = SegmentView;
+			sourceTree = "<group>";
+		};
 		B287E1DE2BBD7F5100367B99 = {
 			isa = PBXGroup;
 			children = (
-				B25A4EBA2BBEB0600095AFAD /* leaf */,
 				B287E1E92BBD7F5100367B99 /* PracticeUIkit */,
-				B287E2062BBD7FAB00367B99 /* TorVPN */,
-				B2F77E752BD0F6F30056448D /* PracticeUIkitTests */,
 				B287E2032BBD7FAB00367B99 /* Frameworks */,
 				B287E1E82BBD7F5100367B99 /* Products */,
-				645C6D34AEF30F29732377E4 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -266,8 +265,6 @@
 			isa = PBXGroup;
 			children = (
 				B287E1E72BBD7F5100367B99 /* PracticeUIkit.app */,
-				B287E2022BBD7FAB00367B99 /* TorVPN.appex */,
-				B2F77E742BD0F6F20056448D /* PracticeUIkitTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -275,12 +272,14 @@
 		B287E1E92BBD7F5100367B99 /* PracticeUIkit */ = {
 			isa = PBXGroup;
 			children = (
+				B260C8622C2D52D200C464A1 /* Resources */,
+				B260C85F2C2D4AFD00C464A1 /* Social Logins */,
+				B26237A02C104D240020E665 /* Helper */,
 				B2556EA22BDB91D3005C24CE /* Controller */,
 				B2F77E802BD0F7870056448D /* Manager */,
 				B2F77E7D2BD0F7420056448D /* Extensions */,
 				B2A493802BD0E8CC0026D311 /* Views */,
 				B240734F2BC3D4730015CF26 /* Configuration */,
-				B25A4EB62BBE8EBA0095AFAD /* Podfile.lock */,
 				B287E2122BBD7FD000367B99 /* PracticeUIkit.entitlements */,
 				B287E1EA2BBD7F5100367B99 /* AppDelegate.swift */,
 				B287E1EC2BBD7F5100367B99 /* SceneDelegate.swift */,
@@ -307,16 +306,6 @@
 				167B81C38B6284733E4E0341 /* Pods_TorVPN.framework */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		B287E2062BBD7FAB00367B99 /* TorVPN */ = {
-			isa = PBXGroup;
-			children = (
-				B287E2072BBD7FAB00367B99 /* AppProxyProvider.swift */,
-				B287E2092BBD7FAB00367B99 /* Info.plist */,
-				B287E20A2BBD7FAB00367B99 /* TorVPN.entitlements */,
-			);
-			path = TorVPN;
 			sourceTree = "<group>";
 		};
 		B2A493802BD0E8CC0026D311 /* Views */ = {
@@ -346,16 +335,6 @@
 				B260C85B2BECBFEB007ECCE4 /* LayoutViewController.swift */,
 			);
 			path = DarkLightMode;
-			sourceTree = "<group>";
-		};
-		B2F77E752BD0F6F30056448D /* PracticeUIkitTests */ = {
-			isa = PBXGroup;
-			children = (
-				B2F77E762BD0F6F30056448D /* PracticeUIkitTests.swift */,
-				B2F77E852BD0F82F0056448D /* VehicleTest.swift */,
-				B2F77E872BD0FAA50056448D /* SystemScanTest.swift */,
-			);
-			path = PracticeUIkitTests;
 			sourceTree = "<group>";
 		};
 		B2F77E7D2BD0F7420056448D /* Extensions */ = {
@@ -400,7 +379,6 @@
 			buildRules = (
 			);
 			dependencies = (
-				B287E20C2BBD7FAB00367B99 /* PBXTargetDependency */,
 			);
 			name = PracticeUIkit;
 			packageProductDependencies = (
@@ -408,42 +386,6 @@
 			productName = PracticeUIkit;
 			productReference = B287E1E72BBD7F5100367B99 /* PracticeUIkit.app */;
 			productType = "com.apple.product-type.application";
-		};
-		B287E2012BBD7FAB00367B99 /* TorVPN */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = B287E20E2BBD7FAB00367B99 /* Build configuration list for PBXNativeTarget "TorVPN" */;
-			buildPhases = (
-				2BAE4E14FB51C0A10F03B93E /* [CP] Check Pods Manifest.lock */,
-				B287E1FE2BBD7FAB00367B99 /* Sources */,
-				B287E1FF2BBD7FAB00367B99 /* Frameworks */,
-				B287E2002BBD7FAB00367B99 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = TorVPN;
-			productName = TorVPN;
-			productReference = B287E2022BBD7FAB00367B99 /* TorVPN.appex */;
-			productType = "com.apple.product-type.app-extension";
-		};
-		B2F77E732BD0F6F20056448D /* PracticeUIkitTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = B2F77E7C2BD0F6F30056448D /* Build configuration list for PBXNativeTarget "PracticeUIkitTests" */;
-			buildPhases = (
-				B2F77E702BD0F6F20056448D /* Sources */,
-				B2F77E712BD0F6F20056448D /* Frameworks */,
-				B2F77E722BD0F6F20056448D /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				B2F77E792BD0F6F30056448D /* PBXTargetDependency */,
-			);
-			name = PracticeUIkitTests;
-			productName = PracticeUIkitTests;
-			productReference = B2F77E742BD0F6F20056448D /* PracticeUIkitTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
@@ -458,13 +400,6 @@
 					B287E1E62BBD7F5100367B99 = {
 						CreatedOnToolsVersion = 15.2;
 						LastSwiftMigration = 1520;
-					};
-					B287E2012BBD7FAB00367B99 = {
-						CreatedOnToolsVersion = 15.2;
-					};
-					B2F77E732BD0F6F20056448D = {
-						CreatedOnToolsVersion = 15.2;
-						TestTargetID = B287E1E62BBD7F5100367B99;
 					};
 				};
 			};
@@ -484,8 +419,6 @@
 			projectRoot = "";
 			targets = (
 				B287E1E62BBD7F5100367B99 /* PracticeUIkit */,
-				B287E2012BBD7FAB00367B99 /* TorVPN */,
-				B2F77E732BD0F6F20056448D /* PracticeUIkitTests */,
 			);
 		};
 /* End PBXProject section */
@@ -496,27 +429,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				B287E1F72BBD7F5200367B99 /* LaunchScreen.storyboard in Resources */,
+				B260C8642C2D52E200C464A1 /* GoogleService-Info.plist in Resources */,
+				B260C8692C2D54C300C464A1 /* client_839814360640-8b9v141upf8ndhh6o2um38ojc24caoq4.apps.googleusercontent.com.plist in Resources */,
 				B287E1F42BBD7F5200367B99 /* Assets.xcassets in Resources */,
 				B2A493822BD0E8D50026D311 /* SystemScan.storyboard in Resources */,
-				B25A4EB72BBE8EBA0095AFAD /* Podfile.lock in Resources */,
-				B25A4EBB2BBEB0600095AFAD /* leaf in Resources */,
 				B287E1F22BBD7F5100367B99 /* Main.storyboard in Resources */,
 				B2B51AB22BD7BC880057F639 /* TSNavigationView.xib in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		B287E2002BBD7FAB00367B99 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				B25A4EBC2BBEB0600095AFAD /* leaf in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		B2F77E722BD0F6F20056448D /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -562,28 +480,6 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		2BAE4E14FB51C0A10F03B93E /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-TorVPN-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -598,12 +494,16 @@
 				B25338472BF4719B00F5E8BB /* CoreDataViewController.swift in Sources */,
 				B2F77E7F2BD0F7590056448D /* UIView+Extension.swift in Sources */,
 				B287E1EF2BBD7F5100367B99 /* ViewController.swift in Sources */,
+				B260C8612C2D4B1300C464A1 /* SocialLoginViewController.swift in Sources */,
 				B26860BF2BC409070088C643 /* BaseViewController.swift in Sources */,
+				B26237A22C104D3C0020E665 /*  YSSegmentedControl.swift in Sources */,
 				B2556EA62BDB9238005C24CE /* ChildSwiftUIVC.swift in Sources */,
+				B260C8672C2D547A00C464A1 /* Constant.swift in Sources */,
 				B2F77E822BD0F7910056448D /* Vehicle.swift in Sources */,
 				B253384A2BF471E400F5E8BB /* Model.xcdatamodeld in Sources */,
 				B219DE7F2BF614EA00BF0089 /* DirectContactVC.swift in Sources */,
 				B2F794DA2BFC6AEF00489365 /* ScrollTestVC.swift in Sources */,
+				B260C86C2C2D86A000C464A1 /* GoogleSignInManager.swift in Sources */,
 				B287E1EB2BBD7F5100367B99 /* AppDelegate.swift in Sources */,
 				B24073572BC3DBD80015CF26 /* SharedUtils.swift in Sources */,
 				B219DE7D2BF5F8EE00BF0089 /* ContactSwiftVC.swift in Sources */,
@@ -611,12 +511,15 @@
 				B219DE782BF5EF5300BF0089 /* ContactViewController.m in Sources */,
 				B2B51AB42BD7BCA20057F639 /* TSNavigationView.swift in Sources */,
 				B24073512BC3D48C0015CF26 /* VpnManager.swift in Sources */,
+				B24DD0492C099D96007608A2 /* OnionViewController.swift in Sources */,
+				B26237A52C104DBB0020E665 /* SegmentViewController.swift in Sources */,
 				B20E1C8E2BF4C0750092771E /* DiscountViewController.swift in Sources */,
 				B218A3122BF6253A00311207 /* AddressBookVC.swift in Sources */,
 				B2A493842BD0E92D0026D311 /* SystemScanViewController.swift in Sources */,
 				B24073532BC3D4960015CF26 /* TorManager.swift in Sources */,
 				B24073552BC3D5650015CF26 /* VStatusManager.swift in Sources */,
 				B287E1ED2BBD7F5100367B99 /* SceneDelegate.swift in Sources */,
+				B253FFB32C1837320026CDD2 /* CouchBaseImplementation.swift in Sources */,
 				B2858A3F2C08BE35006C2DEB /* DIctViewController.swift in Sources */,
 				B28CB9AC2BBEC9BD0043EF5D /* HelloViewController.m in Sources */,
 				B2247D472BC3C42400D1A3E0 /* SwiftUIView.swift in Sources */,
@@ -624,38 +527,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B287E1FE2BBD7FAB00367B99 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				B287E2082BBD7FAB00367B99 /* AppProxyProvider.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		B2F77E702BD0F6F20056448D /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				B2F77E882BD0FAA50056448D /* SystemScanTest.swift in Sources */,
-				B2F77E862BD0F82F0056448D /* VehicleTest.swift in Sources */,
-				B2F77E772BD0F6F30056448D /* PracticeUIkitTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		B287E20C2BBD7FAB00367B99 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = B287E2012BBD7FAB00367B99 /* TorVPN */;
-			targetProxy = B287E20B2BBD7FAB00367B99 /* PBXContainerItemProxy */;
-		};
-		B2F77E792BD0F6F30056448D /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = B287E1E62BBD7F5100367B99 /* PracticeUIkit */;
-			targetProxy = B2F77E782BD0F6F30056448D /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		B287E1F02BBD7F5100367B99 /* Main.storyboard */ = {
@@ -798,7 +670,6 @@
 		};
 		B287E1FC2BBD7F5200367B99 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = AA901D5268E3C8DB07200B0A /* Pods-PracticeUIkit.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -807,13 +678,14 @@
 				CODE_SIGN_ENTITLEMENTS = PracticeUIkit/PracticeUIkit.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = JA3932A9M6;
+				DEVELOPMENT_TEAM = THSU35DN8P;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
 				);
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = PracticeUIkit/Info.plist;
+				INFOPLIST_KEY_NSContactsUsageDescription = "This app requires access to your contacts to help you connect with friends and family and to provide a personalized experience.";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -824,7 +696,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = eventhorizon.rubiTV.devTeam;
+				PRODUCT_BUNDLE_IDENTIFIER = com.practice.etc;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_OBJC_BRIDGING_HEADER = "PracticeUIkit/PracticeUIkit-Bridging-Header.h";
@@ -836,7 +708,6 @@
 		};
 		B287E1FD2BBD7F5200367B99 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = FB0A7EC4049AED76D2918127 /* Pods-PracticeUIkit.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -845,13 +716,14 @@
 				CODE_SIGN_ENTITLEMENTS = PracticeUIkit/PracticeUIkit.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = JA3932A9M6;
+				DEVELOPMENT_TEAM = THSU35DN8P;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
 				);
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = PracticeUIkit/Info.plist;
+				INFOPLIST_KEY_NSContactsUsageDescription = "This app requires access to your contacts to help you connect with friends and family and to provide a personalized experience.";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -862,118 +734,12 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = eventhorizon.rubiTV.devTeam;
+				PRODUCT_BUNDLE_IDENTIFIER = com.practice.etc;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_OBJC_BRIDGING_HEADER = "PracticeUIkit/PracticeUIkit-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
-		B287E20F2BBD7FAB00367B99 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = A3D0B6532D1831FF508BD273 /* Pods-TorVPN.debug.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_ENTITLEMENTS = TorVPN/TorVPN.entitlements;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = JA3932A9M6;
-				ENABLE_USER_SCRIPT_SANDBOXING = NO;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = TorVPN/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = TorVPN;
-				INFOPLIST_KEY_NSHumanReadableCopyright = "";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@executable_path/../../Frameworks",
-				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = eventhorizon.rubiTV.devTeam.ext;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SKIP_INSTALL = YES;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
-				SUPPORTS_MACCATALYST = NO;
-				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
-				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
-				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = 1;
-			};
-			name = Debug;
-		};
-		B287E2102BBD7FAB00367B99 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9D5BC0E95F4B506D66E428E5 /* Pods-TorVPN.release.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_ENTITLEMENTS = TorVPN/TorVPN.entitlements;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = JA3932A9M6;
-				ENABLE_USER_SCRIPT_SANDBOXING = NO;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = TorVPN/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = TorVPN;
-				INFOPLIST_KEY_NSHumanReadableCopyright = "";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@executable_path/../../Frameworks",
-				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = eventhorizon.rubiTV.devTeam.ext;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SKIP_INSTALL = YES;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
-				SUPPORTS_MACCATALYST = NO;
-				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
-				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
-				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = 1;
-			};
-			name = Release;
-		};
-		B2F77E7A2BD0F6F30056448D /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = JA3932A9M6;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.utils.PracticeUIkitTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PracticeUIkit.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/PracticeUIkit";
-			};
-			name = Debug;
-		};
-		B2F77E7B2BD0F6F30056448D /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = JA3932A9M6;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.utils.PracticeUIkitTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PracticeUIkit.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/PracticeUIkit";
 			};
 			name = Release;
 		};
@@ -994,24 +760,6 @@
 			buildConfigurations = (
 				B287E1FC2BBD7F5200367B99 /* Debug */,
 				B287E1FD2BBD7F5200367B99 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		B287E20E2BBD7FAB00367B99 /* Build configuration list for PBXNativeTarget "TorVPN" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				B287E20F2BBD7FAB00367B99 /* Debug */,
-				B287E2102BBD7FAB00367B99 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		B2F77E7C2BD0F6F30056448D /* Build configuration list for PBXNativeTarget "PracticeUIkitTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				B2F77E7A2BD0F6F30056448D /* Debug */,
-				B2F77E7B2BD0F6F30056448D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

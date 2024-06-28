@@ -2,15 +2,15 @@ source 'https://github.com/CocoaPods/Specs.git'
 
 use_frameworks!
 
-def tor
-  pod 'Tor/GeoIP',
-  :podspec => 'https://raw.githubusercontent.com/iCepa/Tor.framework/pure_pod/TorStatic.podspec'
-end
-
-def iptproxy
-  pod 'IPtProxyUI/AppEx',
-  '~> 4.2'
-end
+#def tor
+#  pod 'Tor/GeoIP',
+#  :podspec => 'https://raw.githubusercontent.com/iCepa/Tor.framework/pure_pod/TorStatic.podspec'
+#end
+#
+#def iptproxy
+#  pod 'IPtProxyUI/AppEx',
+#  '~> 4.2'
+#end
 
 target 'PracticeUIkit' do
   platform :ios, '15.0'
@@ -24,24 +24,28 @@ target 'PracticeUIkit' do
   pod 'IQKeyboardManagerSwift'
   pod 'SwiftyStoreKit'
   pod 'CouchbaseLite-Swift'
-
+#  pod 'OnionBrowserCore'
   
-  pod 'AWSS3' 
-#  pod 'AWSCognito', '~> 2.6.13'
+  pod 'Firebase/Core'
+  pod 'GoogleSignIn'
   
   
-end
-
-
-target 'TorVPN' do
+  pod 'AWSS3'
+  #  pod 'AWSCognito', '~> 2.6.13'
   
-  platform :ios, '15.0'
-  
-  #  tor
-  #  iptproxy
-  pod 'GCDWebServerExtension', :git => 'https://github.com/tladesignz/GCDWebServer.git'
   
 end
+
+
+#target 'TorVPN' do
+#  
+#  platform :ios, '15.0'
+#  
+#  #  tor
+#  #  iptproxy
+#  pod 'GCDWebServerExtension', :git => 'https://github.com/tladesignz/GCDWebServer.git'
+#  
+#end
 
 post_install do |installer|
   installer.pods_project.targets.each do |target|

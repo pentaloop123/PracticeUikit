@@ -75,6 +75,93 @@ class AddressBookVC: UIViewController, CNContactPickerDelegate {
 
 
 
+@IBDesignable
+class UnderlineView: UIView {
+
+    @IBInspectable var underlineColor: UIColor = .gray {
+        didSet {
+            setUnderLine()
+        }
+    }
+
+    @IBInspectable var underlineWidth: CGFloat = 2 {
+        didSet {
+            setUnderLine()
+        }
+    }
+    
+    @IBInspectable var upperlineWidth: CGFloat = 2 {
+        didSet {
+            setUpperLine()
+        }
+    }
+
+    @IBInspectable var leftPadding: CGFloat = 10 {
+        didSet {
+            setNeedsLayout()
+        }
+    }
+    
+    @IBInspectable var rightPadding: CGFloat = 10 {
+        didSet {
+            setNeedsLayout()
+        }
+    }
+
+    private var underlineLayer: CALayer?
+    private var upperlineLayer: CALayer?
+
+    override func awakeFromNib() {
+        super.awakeFromNib()
+        setUnderLine()
+        setUpperLine()
+    }
+
+    override func prepareForInterfaceBuilder() {
+        super.prepareForInterfaceBuilder()
+        setUnderLine()
+        setUpperLine()
+    }
+
+    override func layoutSubviews() {
+        super.layoutSubviews()
+        setUnderLine()
+        setUpperLine()
+    }
+
+    private func setUnderLine() {
+        // Remove existing underline layer if any
+        underlineLayer?.removeFromSuperlayer()
+
+        let border = CALayer()
+        border.name = "underlineLayer"
+        border.borderColor = underlineColor.cgColor
+        border.borderWidth = underlineWidth
+        border.frame = CGRect(x: leftPadding, y: self.frame.size.height - underlineWidth, width: (self.frame.size.width) - (leftPadding + rightPadding) , height: underlineWidth)
+
+        self.layer.addSublayer(border)
+        self.layer.masksToBounds = true
+        underlineLayer = border
+    }
+    
+    private func setUpperLine() {
+        // Remove existing underline layer if any
+        upperlineLayer?.removeFromSuperlayer()
+
+        let border = CALayer()
+        border.name = "underlineLayer"
+        border.borderColor = underlineColor.cgColor
+        border.borderWidth = underlineWidth
+        border.frame = CGRect(x: leftPadding, y: 0, width: self.frame.size.width - (leftPadding + rightPadding), height: underlineWidth)
+
+        self.layer.addSublayer(border)
+        self.layer.masksToBounds = true
+        upperlineLayer = border
+    }
+}
+
+
+
 import UIKit
 
 @IBDesignable
